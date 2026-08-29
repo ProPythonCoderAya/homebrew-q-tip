@@ -1,13 +1,14 @@
 class QTip < Formula
   desc "A simple C++ graphics framework"
   homepage "https://github.com/ProPythonCoderAya/Q-Tip"
-  url "https://github.com/ProPythonCoderAya/Q-Tip/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "3615a28d8c27a8960d8c5cd70e09d0bda296c13af9468c775b55c97ad73b8006"
+  url "https://github.com/ProPythonCoderAya/Q-Tip/archive/refs/tags/DEBUG.tar.gz"
+  sha256 "e6e33f8786a4d1125718dac3ea8f90c48653c3a10093d81b4fb4708576315686"
   license "MIT"
 
   depends_on "cmake"
   depends_on "sdl3"
   depends_on "sdl3_ttf"
+  depends_on "sdl3_image"
 
   def install
     system "cmake", "-S", ".", "-B", "build",
