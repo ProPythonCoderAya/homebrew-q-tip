@@ -1,7 +1,7 @@
 class QTip < Formula
   desc "A simple C++ graphics framework"
   homepage "https://github.com/ProPythonCoderAya/Q-Tip"
-  url "https://github.com/ProPythonCoderAya/Q-Tip/archive/refs/tags/v0.1.5.tar.gz.tar.gz"
+  url "https://github.com/ProPythonCoderAya/Q-Tip/archive/refs/tags/v0.1.5.tar.gz"
   sha256 "38380fb46d64ef920db6d7921f11d5b9592b4e56a4a72c11177ffad68bd564e0"
   license "MIT"
 
