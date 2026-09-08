@@ -11,7 +11,6 @@ class QTip < Formula
   depends_on "sdl3_image"
 
   def install
-    puts std_cmake_args
     system "cmake", "-S", ".", "-B", "build",
             "-DCMAKE_BUILD_TYPE=Release",
            *std_cmake_args
