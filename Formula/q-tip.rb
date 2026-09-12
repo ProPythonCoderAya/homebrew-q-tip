@@ -3,7 +3,7 @@ class QTip < Formula
   homepage "https://github.com/ProPythonCoderAya/Q-Tip"
   url "https://github.com/ProPythonCoderAya/Q-Tip/archive/refs/tags/v0.1.6.tar.gz"
   head "https://github.com/ProPythonCoderAya/Q-Tip.git", branch: "main"
-  sha256 "13fbf189263ab426bb308c8983e3d8249002b104c6901837f1207576e6073cff"
+  sha256 "c7c4df3174b7d1021956a04bf58efd9d839c8b2a1f12667a79019cff88b90c69"
   license "MIT"
 
   depends_on "cmake"
